@@ -31,6 +31,11 @@ Visit Repo
 Download Repo
 [Download Repo](https://github.com/rbhatt1999/HTML-CSS-JS-capstone/archive/refs/heads/master.zip)
 
+## Credits
+
+- The original design ideal by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+
+- Project from [Microverse](https://www.microverse.org/?grsf=i6yi2m) html & css module
 
 ## Authors
 
@@ -56,4 +61,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./MIT.md) licensed.
