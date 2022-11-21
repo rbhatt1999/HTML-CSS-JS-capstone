@@ -29,6 +29,14 @@
   margin-left: 1rem;
 }
 
+.login-details {
+  display: none;
+}
+
+.logo-tab-container {
+  display: none;
+}
+
 .headline-section {
   background-image: url(../background_images/mobile_bg.png);
   padding: 3rem 1.5rem;
@@ -168,7 +176,7 @@
 
 .card-image img {
   width: 100%;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 
 .card-details {
@@ -189,6 +197,7 @@
 }
 
 .card-details p {
+  padding-top: 10px;
   font-size: 0.83333125rem;
   text-align: center;
   color: var(--color-white);
@@ -213,6 +222,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  gap: 1rem;
 }
 
 .partners-list li {
@@ -275,4 +285,117 @@ footer h2 {
   border-bottom: solid 1px #6f6c6b;
   margin: 1rem 1rem 0 1rem;
   padding-left: 16px;
+}
+
+@media (min-width: 768px) {
+  .hamburger-container {
+    display: none;
+  }
+
+  .login-details {
+    display: flex;
+    background-color: var(--secondary);
+    justify-content: right;
+    align-items: center;
+    gap: 2rem;
+    padding: 0.1rem 10%;
+  }
+
+  .login-details img {
+    max-width: 1rem;
+    height: auto;
+  }
+
+  .login-details a {
+    text-decoration: none;
+    color: var(--color-white);
+    font-size: 14px;
+  }
+
+  .logo-tab-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 10%;
+  }
+
+  .logo-tab-container img {
+    max-width: 7rem;
+  }
+
+  .tab-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  .tab-container > a {
+    color: black;
+    text-decoration: none;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+  }
+
+  .tab-container > a:last-child {
+    border: 3px solid var(--primary);
+    box-sizing: border-box;
+    padding: 0.25rem 0.5rem;
+    color: #f51d1d;
+    font-size: 0.75rem;
+  }
+
+  .headline-section {
+    background-image: url(../background_images/main_desktop.png);
+    background-size: cover;
+  }
+
+  .headline-quote {
+    max-width: 55%;
+  }
+
+  .headline-h1 {
+    display: flex;
+    justify-content: center;
+  }
+
+  .headline-h1 h1 {
+    max-width: 55%;
+  }
+
+  .headline-discription {
+    max-width: 55%;
+  }
+
+  .headline-contact {
+    max-width: 55%;
+  }
+
+  .headline-section a {
+    max-width: 55%;
+  }
+
+  .logo-container {
+    width: 40%;
+    padding: 4% 0;
+  }
+
+  .card-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .card-container li {
+    flex: 1;
+    max-width: 35%;
+  }
+
+  .card-details h3 {
+    font-size: 150%;
+  }
+
+  .card-details p {
+    padding-top: 10px;
+    font-size: 100%;
+  }
 }
