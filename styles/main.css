@@ -19,7 +19,7 @@
   position: fixed;
   top: 0.5rem;
   left: 0.5rem;
-  right:0;
+  right: 0;
 }
 
 .headline-section {
@@ -36,13 +36,13 @@
   font-weight: 400;
   font-size: 1.25rem;
   margin: 0.75rem 0;
-} 
+}
 
 .headline-h1 {
   -webkit-background-clip: text;
-	background-clip: text;
-	background-image: url(../background_images/orange.jpeg);
-	color: transparent;
+  background-clip: text;
+  background-image: url(../background_images/orange.jpeg);
+  color: transparent;
 }
 
 .headline-h1 h1 {
@@ -80,7 +80,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 2rem 0.7rem;
+  padding: 2rem 1rem;
   background-image: url(../icons/main-fill-bg.png);
   background-size: 3rem;
   background-repeat: repeat;
@@ -97,7 +97,6 @@
   align-self: center;
   margin: 0.75rem 0;
   height: 0.1rem;
-  align-self: center;
 }
 
 .program-list {
@@ -154,9 +153,75 @@
   transition: all 400ms linear 0.1ms;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: var(--color-white);
   color: var(--primary);
   border: 2px solid var(--primary);
   border-radius: 10px;
+}
+
+.featured-speakers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem 1rem;
+}
+
+.featured-speakers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.featured-speakers-list li {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.speaker-image-container {
+  position: relative;
+  min-width: 8rem;
+  min-height: 8rem;
+  background-image: url(../speakers-images/backgound-format.jpg);
+  background-size: contain;
+  background-position: top left;
+  background-repeat: no-repeat;
+}
+
+.speaker-image-container img {
+  position: absolute;
+  width: 90%;
+  top: 10%;
+  left: 10%;
+}
+
+.speaker-details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.speaker-details-container h3 {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.speaker-position {
+  color: var(--primary);
+  font-size: 0.8125rem;
+  line-height: 1.5rem;
+  font-weight: normal;
+}
+
+.underline2 {
+  background-color: var(--tertiary);
+  width: 1.9rem;
+  height: 0.1rem;
+}
+
+.speaker-discription {
+  line-height: 1.125rem;
+  font-size: 0.875rem;
+  font-weight: normal;
 }
