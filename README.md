@@ -9,6 +9,9 @@
 - CSS
 - Javascript
 
+## Video walkthough
+[loom video link](https://www.loom.com/share/a2508487efc6419fb0609d415c98e555)
+
 ## Live Demo
 
 [Live Demo Link](https://rbhatt1999.github.io/HTML-CSS-JS-capstone/)
