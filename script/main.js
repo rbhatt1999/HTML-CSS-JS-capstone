@@ -37,7 +37,7 @@ let speakers = [
   }
 ]
 
-let speakerList = document.querySelector('.featured-speakers-list');
+let featuredSpeakers = document.querySelector('.featured-speakers-list');
 
 speakers.forEach((item)=>{
   let li = document.createElement('li');
@@ -48,5 +48,57 @@ speakers.forEach((item)=>{
     <div class="underline2"></div>
     <p class="speaker-discription">${item.description}</p>
   </div>`
-  speakerList.appendChild(li);
+  featuredSpeakers.appendChild(li);
 });
+
+let speakerList = document.querySelectorAll('.featured-speakers-list>li');
+let featureSpeakerButton= document.querySelectorAll('.featured-speakers-button');
+featureSpeakerButton[0].addEventListener('click',()=>{
+for(let i =2; i<speakerList.length;i++){
+  speakerList[i].style.display='flex';
+}
+featureSpeakerButton[0].style.display='none';
+featureSpeakerButton[1].style.display='flex';
+});
+
+featureSpeakerButton[1].addEventListener('click',()=>{
+  for(let i =2; i<speakerList.length;i++){
+    speakerList[i].style.display='none';
+  }
+  featureSpeakerButton[0].style.display='flex';
+  featureSpeakerButton[1].style.display='none';
+  });
+
+  const body = document.querySelector('body');
+  const menuDiv = document.createElement('div');
+  const main = document.querySelector('main');
+  menuDiv.className = 'menu-content';
+  menuDiv.style.display = 'none';
+  
+  const divContent = '<img class="cross-icon" src="./icons/cross.png" alt=""> <a href="./about.html">About</a> <a href="#">Home</a> <a href="#">Join</a> <a href="#">Sponsor</a><a href="#">Guest</a><a href="#">IMAA 2022</a>';
+  menuDiv.innerHTML = divContent;
+  body.appendChild(menuDiv);
+  const hamburgerIcon = document.querySelector('.hamburger-container');
+  const headerContainer= document.querySelector('header');
+  hamburgerIcon.addEventListener('click', () => {
+    menuDiv.style.display = 'flex';
+    main.style.filter='blur(5px)';
+    headerContainer.style.display = 'none';
+  });
+  
+  const crossIcon = document.querySelector('.cross-icon');
+  crossIcon.addEventListener('click', () => {
+    menuDiv.style.display = 'none';
+    main.style.filter='blur(0)';
+    headerContainer.style.display = 'block';
+  });
+  
+  const itemList = document.querySelectorAll('.menu-content>a');
+  
+  itemList.forEach((item) => {
+    item.addEventListener('click', () => {
+      menuDiv.style.display = 'none';
+      main.style.filter='blur(0)';
+      headerContainer.style.display = 'block';
+    });
+  });
