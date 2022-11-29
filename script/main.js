@@ -47,6 +47,19 @@ const speakers = [
     description: `Akassh is an Internet Entrepreneur based out of India and is one of India's top social influencers.`,
     image: './speakers-images/speaker-8.jpg',
   },
+  {
+    name: 'hemand garg',
+    position: 'Mental hospital patient',
+    description: `this is a special mention hemant ran away from the mental hospital if anyone find him please contact us`,
+    image: './speakers-images/speaker-9.jpg',
+  },
+  {
+    name: 'Karan Rawat',
+    position: 'Youngest prime minister of Uganda',
+    description: `Karan also known as Juneboy is youngest prime minister of uganda, who got 3 votes only.`,
+    image: './speakers-images/speaker-10.jpg',
+  },
+  
 ];
 
 const featuredSpeakers = document.querySelector('.featured-speakers-list');
