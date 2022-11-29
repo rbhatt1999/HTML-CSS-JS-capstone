@@ -48,9 +48,9 @@ const speakers = [
     image: './speakers-images/speaker-8.jpg',
   },
   {
-    name: 'hemand garg',
+    name: 'hemant garg',
     position: 'Mental hospital patient',
-    description: `this is a special mention hemant ran away from the mental hospital if anyone find him please contact us`,
+    description: `This is a special mention hemant ran away from the mental hospital if anyone find him please contact us`,
     image: './speakers-images/speaker-9.jpg',
   },
   {
