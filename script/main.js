@@ -35,6 +35,12 @@ const speakers = [
     description: 'RJ Naved became a household name in India after running his show on Radio Mirchi 98.3 FM',
     image: './speakers-images/speaker-6.jpg',
   },
+  {
+    name: 'Rohit Bhatt',
+    position: 'Software developer and isekai demi-god',
+    description: 'Rohit reincarnated in earth-567 and became isekai demi-god',
+    image: './speakers-images/speaker-7.jpg',
+  },
 ];
 
 const featuredSpeakers = document.querySelector('.featured-speakers-list');
