@@ -41,6 +41,12 @@ const speakers = [
     description: 'Rohit reincarnated in earth-567 and became isekai demi-god',
     image: './speakers-images/speaker-7.jpg',
   },
+  {
+    name: 'Akassh Gupta',
+    position: 'Founder Peepoye network',
+    description: `Akassh is an Internet Entrepreneur based out of India and is one of India's top social influencers.`,
+    image: './speakers-images/speaker-8.jpg',
+  },
 ];
 
 const featuredSpeakers = document.querySelector('.featured-speakers-list');
