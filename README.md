@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 <div align="center">
 
-  <img src="https://github.com/microverseinc/readme-template/blob/master/murple_logo.png" alt="logo" width="140"  height="auto" />
+  <img src="https://github.com/rbhatt1999/rbhatt1999/blob/bd8bb27a9814ab74d6f920a1027494a65610a24d/logo.png" alt="logo" width="140"  height="auto" />
   <br/>
 
   <h3><b>HTML-CSS-JS-capstone Project</b></h3>
@@ -35,9 +35,7 @@
 
 # 📖 [HTML-CSS-JS-capstone Project] <a name="about-project"></a>
 
-> This is the final capstone project for HTML & CSS First Module from the microverse curriculum.
-
-**HTML-CSS-JS-capstone Project** is a...
+> This is the final capstone project for HTML & CSS First Module from the microverse curriculum. The IMAA Show is an annual event in the India that is organized by the INDIAN MUSIC ASSOCIATION (IMA), which describes it as the India’s largest trade-only event for the music products, pro audio, and event tech industry that features music concert, dance show, and a lot of other performances from different musicians
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -54,8 +52,6 @@
 </details>
 
 ### Key Features <a name="key-features"></a>
-
-> Below are the key features of the website:
 
 - **Responsive to Mobile and desktop**
 - **Transition used**
@@ -74,33 +70,50 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 💻 Getting Started <a name="getting-started"></a>
+## 💻 Getting Started with HTML CSS JS capstone<a name="getting-started"></a>
 
-To get a local copy up and running follow these simple example steps.
+### Setup
 
-1. Clone this repository or download the Zip folder:
+Clone this [repository](https://github.com/rbhatt1999/HTML-CSS-JS-capstone.git) to your desired folder:
 
-**``git clone https://github.com/rbhatt1999/HTML-CSS-JS-capstone.git``**
+```sh
+  cd my-folder
+  git clone git@github.com:rbhatt1999/HTML-CSS-JS-capstone.git 
+  cd HTML-CSS-JS-capstone
+```
 
-2. Navigate to the location of the folder in your machine:
+### Install
 
-**``you@your-Pc-name:~$ cd <folder>``**
+Install this project with:
 
-### Visit And Open Files
-1-Visit Repo
-[Visit Repo](https://github.com/rbhatt1999/HTML-CSS-JS-capstone)
+```sh
+  npm install
+```
 
-2-Download Repo
-[Download Repo](https://github.com/rbhatt1999/HTML-CSS-JS-capstone/archive/refs/heads/master.zip)
+### Start
+
+To start the application, run the following command
+
+```sh
+  npm start
+```
+
+### Run tests
+
+To run tests, run the following command:
+
+```sh
+  npm test
+```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-👤 **Author1**
+👤 **Rohit Bhatt**
 
-- GitHub: [@githubhandle](https://github.com/rbhatt1999)
-- Twitter: [@twitterhandle](https://twitter.com/rohitbh02837778)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/rohit-bhatt-747166193/)
+- GitHub: [@rbhatt1999](https://github.com/rbhatt1999)
+- Twitter: [@rohitbh02837778](https://twitter.com/rohitbh02837778)
+- LinkedIn: [rohit-bhatt-747166193](https://www.linkedin.com/in/rohit-bhatt-747166193/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
