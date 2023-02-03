@@ -35,30 +35,6 @@ const speakers = [
     description: 'RJ Naved became a household name in India after running his show on Radio Mirchi 98.3 FM',
     image: './speakers-images/speaker-6.jpg',
   },
-  {
-    name: 'Rohit Bhatt',
-    position: 'Software developer and isekai demi-god',
-    description: 'Rohit reincarnated in earth-567 and became isekai demi-god',
-    image: './speakers-images/speaker-7.jpg',
-  },
-  {
-    name: 'Akassh Gupta',
-    position: 'Founder Peepoye network',
-    description: `Akassh is an Internet Entrepreneur based out of India and is one of India's top social influencers.`,
-    image: './speakers-images/speaker-8.jpg',
-  },
-  {
-    name: 'hemant garg',
-    position: 'Mental hospital patient',
-    description: `This is a special mention hemant ran away from the mental hospital if anyone find him please contact us`,
-    image: './speakers-images/speaker-9.jpg',
-  },
-  {
-    name: 'Karan Rawat',
-    position: 'Youngest prime minister of Uganda',
-    description: `Karan also known as Juneboy is youngest prime minister of uganda, who got 3 votes only.`,
-    image: './speakers-images/speaker-10.jpg',
-  },
   
 ];
 
